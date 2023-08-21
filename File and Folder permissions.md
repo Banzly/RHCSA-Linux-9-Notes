@@ -4,6 +4,10 @@
 
 When you do an ``ls -l``. The first identifier tells us what kind of file type it is.
 
+![image](https://github.com/Banzly/RHCSA-Linux-9-Notes/assets/113104087/e084a2af-feae-4473-8644-d63d445c80de)
+
+![image](https://github.com/Banzly/RHCSA-Linux-9-Notes/assets/113104087/48fb9873-0685-4ab0-a19c-a11321750b45)
+
 
  Linux applies permissions in the following order.
 
@@ -53,7 +57,8 @@ Looks like this: -rw**s**r--r--
 
 If it's a lower case "s", then both the execute bit and the SUID bit are set. If it's and upper case, only the SUID bit is set.
 
-"PICT"
+![image](https://github.com/Banzly/RHCSA-Linux-9-Notes/assets/113104087/efb7684c-9d62-48f9-8392-eba7acd128ec)
+
 
 To remove suid, ``chmod u-s filename`` or ``chmod 0664 filename`` where the 0 is the removes the special bit.
 
@@ -80,7 +85,8 @@ If the group has rwx on the directory, that means that any member of the that ow
 
 The Sticky bit makes it so that delete only works if the **owner** deletes the file. Read about this problem under the SGID = 2 section. To check who is the owner of the current directory, ``ls -ld .`` You can also see it with the classic ``ls -la`` and it will be the first item listed. As you can see in the picture, the user armann and the group armann is the owner of the Goonies directory. You can also see that the Sticky bit is set for that directory.
 
-"PICT"
+![image](https://github.com/Banzly/RHCSA-Linux-9-Notes/assets/113104087/c8c299b1-0113-410a-8bda-2b978ac8b4c5)
+
 
 
 This applies a sticky bit to all filed in the current directory.
