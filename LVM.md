@@ -45,7 +45,8 @@ If you are running ext4, you can grow the filesystem with ``resize2fs``.
 
 Remember that it doesn't matter if you use the mapper path or not, both are symbolic links to the same thing.
 
-![LVM-Mapper](pictures/lvm-mapper.png)
+![image](https://github.com/Banzly/RHCSA-Linux-9-Notes/assets/113104087/e3467632-ca53-4ea5-ac95-5fd1053705bb)
+
 
 ## Expand a LVM partition
 
@@ -54,7 +55,8 @@ Let's use this setup as an example.
 We have the "vdc" disk that has four partitions.
 Partition 1, 3 and 4 are all using the "opt" volume group, and "lv_opt" logical volume group.
 
-![lsblk](pictures/lvm1.png)
+![image](https://github.com/Banzly/RHCSA-Linux-9-Notes/assets/113104087/19056e6a-bebf-476f-a3c8-3af8f5781475)
+
 
 ### Step 2 ###
 Let's add 2GB to the 10GB "vdc" disk, and then expand the "vdc4" partition using all that extra space.
@@ -201,7 +203,8 @@ Run ``partprobe``
 Run ``lsblk`` and you should see the increased size. 
 /dev/vda3 was increased by 10GiB.
 
-![partprobe](pictures/gpt1.png)
+![image](https://github.com/Banzly/RHCSA-Linux-9-Notes/assets/113104087/bb042cea-09c5-4941-a84e-d9f8f4970487)
+
 
 ### Step 5
 
