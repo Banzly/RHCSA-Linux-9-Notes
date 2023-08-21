@@ -1,6 +1,7 @@
 # Crontab
 
-![Crontab](/pictures/crontab.png)
+![image](https://github.com/Banzly/RHCSA-Linux-9-Notes/assets/113104087/65ff68a1-f065-440f-a399-dbc1b8d75762)
+
 
 ``crontab -e``
 Edits the current crontab using the editor specified by the VISUAL or EDITOR environment variables.
