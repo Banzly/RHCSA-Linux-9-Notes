@@ -3,7 +3,7 @@
 
 Hey! Welcome to NOtes RHCSA 9 Linux  🤠
 
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.fujitsu.com%2Fid%2FImages%2Fredhat-580x224_tcm114-32995.png&tbnid=SBjoQ5HdGkgqzM&vet=12ahUKEwiTxIPr7-yAAxW65TgGHfUAAQgQMygFegQIARB9..i&imgrefurl=https%3A%2F%2Fwww.fujitsu.com%2Fid%2Fproducts%2Fcomputing%2Fservers%2Fprimergy%2Fos%2Flinux%2Fredhat%2F&docid=O3Ix6dhyYp-xdM&w=580&h=224&q=redhat&ved=2ahUKEwiTxIPr7-yAAxW65TgGHfUAAQgQMygFegQIARB9
+
 
 As I prepare for the RHCSA 9 exam I will write down everything that I study. Feel free clone this repository and use it how you want. I also welcome pull requests if you want to add information.
 
@@ -14,10 +14,10 @@ I will continually keep adding to the table of contents and to the files listed 
 
 ## Table of Contents
 
-- [Bash Scripting](https://github.com/1980is/rhcsa-9/blob/main/Bash%20Scripting.md)
-- [Boot Procedure](https://github.com/1980is/rhcsa-9/blob/main/Boot%20Procedure.md)
-- [Compare and manipulate file content](https://github.com/1980is/rhcsa-9/blob/main/Compare%20and%20manipulate%20file%20content.md)
-- [Containers](https://github.com/1980is/rhcsa-9/blob/main/Containers.md)
+- [Bash Scripting](https://github.com/Banzly/RHCSA-Linux-9-Notes/blob/main/Bash%20Scripting.md)
+- [Boot Procedure]([https://github.com/1980is/rhcsa-9/blob/main/Boot%20Procedure.md](https://github.com/Banzly/RHCSA-Linux-9-Notes/blob/main/Boot%20Procedure.md))
+- [Compare and manipulate file content]([https://github.com/1980is/rhcsa-9/blob/main/Compare%20and%20manipulate%20file%20content.md](https://github.com/Banzly/RHCSA-Linux-9-Notes/blob/main/Compare%20and%20manipulate%20file%20content.md))
+- [Containers]([https://github.com/1980is/rhcsa-9/blob/main/Containers.md](https://github.com/Banzly/RHCSA-Linux-9-Notes/blob/main/Containers.md))
 - [Crontab](https://github.com/1980is/rhcsa-9/blob/main/Crontab.md)
 - [File and Folder permissions](https://github.com/1980is/rhcsa-9/blob/main/File%20and%20Folder%20permissions.md)
 - [Find](https://github.com/1980is/rhcsa-9/blob/main/Find.md)
